@@ -2,11 +2,11 @@
 
 `btminer` - This directory contains the default configuration files for various series of MicroBT's WhatsMiner devices, organized into subfolders for each series.
 
-## Folder Structure
+## Files
 
-- `M30/` - M3X series models like M30S/+/++, M31S/+/++ etc.
-- `M50/` - M5X series models like M50S/+/++ M56S/+/++ etc.
-- `M60/` - M6X series models like M60S/+/++, M66S/+/++ etc.M60S/+/++
+- `M30.csv` - M3X series models like M30S/+/++, M31S/+/++ etc.
+- `M50.csv` - M5X series models like M50S/+/++ M56S/+/++ etc.
+- `M60.csv` - M6X series models like M60S/+/++, M66S/+/++ etc.M60S/+/++
 
 ## Configuration Table Descriptions
 
