@@ -1,6 +1,6 @@
 # Default Configurations for WhatsMiner
 
-`btconfig` - This directory contains the default configuration files for various series of MicroBT's WhatsMiner devices, organized into subfolders for each series.
+`btminer` - This directory contains the default configuration files for various series of MicroBT's WhatsMiner devices, organized into subfolders for each series.
 
 ## Folder Structure
 
@@ -39,3 +39,14 @@
 | `chip_num2`       | Number of chips in the third configuration                   |
 | `chip_num3`       | Number of chips in the fourth configuration                  |
 | `detect_extend`   | Additional detection settings or capabilities                |
+
+
+## Examples
+
+|miner_type |chip_id|baud_rate|board_num|chip_num|chip_column_num|cool_temp|pre_heat_temp|pre_heat_end_freq|pre_heat_timeout|fan_size_cm|cooling_after_test|pass_cores0|pass_cores1|pass_cores2|cool_mode|btminer_test|slot_link|temp_slot1_map|temp_slot3_map|eeprom_slot1_map|eeprom_slot3_map|chip_num0|chip_num1|chip_num2|chip_num3|detect_extend|
+|-----------|-------|---------|---------|--------|---------------|---------|-------------|-----------------|----------------|-----------|------------------|-----------|-----------|-----------|---------|------------|---------|--------------|--------------|----------------|----------------|---------|---------|---------|---------|-------------|
+|M30V10     |0x1930 |12000000 |3        |105     |3              |38       |25           |210              |300             |14         |1                 |314        |209        |105        |         |            |         |              |              |                |                |         |         |         |         |             |
+|M50VJ30    |0x1973 |12000000 |3        |117     |3              |38       |25           |210              |300             |14         |1                 |314        |209        |105        |         |            |         |              |              |                |                |         |         |         |         |             |
+|M50S++VK10 |0x1978 |12000000 |3        |117     |3              |38       |25           |210              |300             |14         |1                 |314        |209        |105        |         |            |         |              |              |                |                |         |         |         |         |             |
+|M60S+VL30  |0x1980 |6000000  |3        |225     |5              |35       |             |                 |                |14         |                  |           |           |           |         |            |         |              |              |                |                |         |         |         |         |12000000     |
+|M66SVK40   |0x1978 |6000000  |4        |240     |5              |30       |             |                 |                |14         |                  |           |           |           |2        |            |"0:1 2:3"|0             |2             |0               |2               |         |         |         |         |12000000     |
